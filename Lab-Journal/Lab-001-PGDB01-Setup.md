@@ -14,6 +14,12 @@
 - Reflection
 - Next Lab
 
+## Prerequisites
+
+- VMware Workstation Pro installed
+- Ubuntu Server ISO downloaded
+- Basic Linux terminal knowledge
+
 ## Lab Information
 
 | Item | Value |
@@ -28,6 +34,8 @@
 | Database | PostgreSQL 18 |
 | Status | ✅ Completed |
 
+Estimated Duration: 45 minutes
+Difficulty: Beginner
 ---
 
 # Objective
@@ -204,10 +212,24 @@ The PostgreSQL lab environment was successfully deployed and verified. The serve
 
 **Repository:** Enterprise DBA Lab
 
+## Verification Checklist
+
+- [x] Ubuntu installed
+- [x] PostgreSQL installed
+- [x] PostgreSQL cluster online
+- [x] Connected using psql
+- [x] Database created
+
 # References
 
 - PostgreSQL Documentation
 - Ubuntu Server Documentation
 - VMware Workstation Pro Documentation
+
+## Document History
+
+| Version | Date | Description |
+|----------|------------|----------------------------|
+| 1.0 | 2026-08-06 | Initial version |
 
 **Author:** Minhaj Ahmed
