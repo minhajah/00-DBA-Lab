@@ -38,13 +38,17 @@ Estimated Duration: 45 minutes
 Difficulty: Beginner
 ---
 
-# Objective
+## Objective
+
+...
 
 Build the first PostgreSQL virtual machine for the Enterprise DBA Lab and verify that PostgreSQL is installed, running, and ready for administration.
 
 ---
 
-# Environment
+## Environment
+
+...
 
 | Component | Details |
 |-----------|---------|
@@ -57,9 +61,9 @@ Build the first PostgreSQL virtual machine for the Enterprise DBA Lab and verify
 | Network | NAT |
 | Database | PostgreSQL 18 |
 
----
-
 # Success Criteria
+
+...
 
 The lab is considered successful when:
 
@@ -160,31 +164,31 @@ CREATE DATABASE dbalab;
 
 # Screenshots
 
-## Figure 1 – VMware Virtual Machine Configuration
+**Figure 1. VMware Workstation Pro virtual machine configuration for PGDB01.**
 
 ![VMware Settings](../Images/01-vm-settings.png)
 
 ---
 
-## Figure 2 – Ubuntu Server Login
+**Figure 2. Ubuntu Server Login**
 
 ![Ubuntu Login](../Images/02-ubuntu-login.png)
 
 ---
 
-## Figure 3 – PostgreSQL Version Verification
+**Figure 3. PostgreSQL Version Verification**
 
 ![PostgreSQL Version](../Images/03-postgresql-version.png)
 
 ---
 
-## Figure 4 – PostgreSQL Cluster Status
+**Figure 4. PostgreSQL Cluster Status**
 
 ![Cluster Status](../Images/04-pg-lsclusters.png)
 
 ---
 
-## Figure 5 – Database Creation
+**Figure 5. Database Creation**
 
 ![Create Database](../Images/05-create-database.png)
 
@@ -214,22 +218,22 @@ The PostgreSQL lab environment was successfully deployed and verified. The serve
 
 ## Verification Checklist
 
-- [x] Ubuntu installed
+- [x] Ubuntu installed successfully
 - [x] PostgreSQL installed
 - [x] PostgreSQL cluster online
 - [x] Connected using psql
-- [x] Database created
+- [x] PostgreSQL version verified
+- [x] Database created successfully
 
-# References
+## References
 
-- PostgreSQL Documentation
-- Ubuntu Server Documentation
-- VMware Workstation Pro Documentation
+- PostgreSQL Documentation: https://www.postgresql.org/docs/
+- Ubuntu Server Documentation: https://documentation.ubuntu.com/server/
+- VMware Workstation Pro Documentation: https://techdocs.broadcom.com/
 
 ## Document History
 
-| Version | Date | Description |
-|----------|------------|----------------------------|
-| 1.0 | 2026-08-06 | Initial version |
-
+| Version | Date | Author | Description |
+|----------|------|--------|-------------|
+| 1.0 | 2026-08-06 | Minhaj Ahmed | Initial release |
 **Author:** Minhaj Ahmed
