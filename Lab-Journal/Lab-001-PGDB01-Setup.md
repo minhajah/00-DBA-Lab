@@ -1,5 +1,19 @@
 # Lab 001 – PostgreSQL Lab Environment Setup
 
+## Table of Contents
+
+- Lab Information
+- Objective
+- Environment
+- Success Criteria
+- Activities Completed
+- Commands Practiced
+- Skills Practiced
+- Lessons Learned
+- Screenshots
+- Reflection
+- Next Lab
+
 ## Lab Information
 
 | Item | Value |
