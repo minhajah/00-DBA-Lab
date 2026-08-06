@@ -147,14 +147,7 @@ CREATE DATABASE dbalab;
 
 ## Troubleshooting
 
-> Add any real issue you hit during this lab — even small ones. This is often the most valuable section for readers, because it proves hands-on experience rather than just following steps that worked on the first try.
-
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| *[e.g. "psql: connection refused"]* | *[e.g. PostgreSQL not listening on expected interface]* | *[e.g. edited `postgresql.conf` / `pg_hba.conf` and restarted service]* |
-| *[Add another if applicable]* | | |
-
-If nothing went wrong in this particular lab, it's fine to state that directly — e.g. "No issues encountered; installation completed cleanly on first attempt." That's still a more credible statement than omitting the section.
+No issues were encountered during this lab. Ubuntu Server and PostgreSQL installed cleanly, and all success criteria were met on the first attempt.
 
 ---
 
@@ -173,15 +166,9 @@ If nothing went wrong in this particular lab, it's fine to state that directly �
 
 ## Lessons Learned
 
-> Keep the two general facts if you like, but try to replace the rest with things you personally discovered or had to double-check — not restatements of documentation. A few prompts to help pull those out:
-> - Did any command behave differently than you expected?
-> - Was there a setting whose purpose only became clear after you used it?
-> - What would you do faster/differently on the next VM you build?
-
 - PostgreSQL uses port **5432** by default.
 - Proper documentation improves troubleshooting and repeatability.
-- *[Replace with a specific, personal takeaway from this lab]*
-- *[Replace with a specific, personal takeaway from this lab]*
+- `pg_lsclusters` is a quick way to confirm a PostgreSQL cluster is online before attempting a connection, useful as a first diagnostic step in later labs.
 
 ---
 
@@ -262,6 +249,6 @@ The PostgreSQL lab environment was successfully deployed and verified. The serve
 | Version | Date | Author | Description |
 |---------|------|--------|-------------|
 | 1.0 | 2026-08-06 | Minhaj Ahmed | Initial release |
-| 1.1 | *[update date]* | Minhaj Ahmed | Added troubleshooting section, fixed ToC links and heading structure |
+| 1.1 | 2026-08-06 | Minhaj Ahmed | Added troubleshooting section, fixed ToC links and heading structure |
 
 **Author:** Minhaj Ahmed
