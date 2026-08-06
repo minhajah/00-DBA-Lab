@@ -1,19 +1,18 @@
-````markdown
 # Lab 001 – PostgreSQL Lab Environment Setup
 
 ## Lab Information
 
-| Item             | Value                        |
-| ---------------- | ---------------------------- |
-| Lab Number       | 001                          |
-| Lab Name         | PostgreSQL Environment Setup |
-| Author           | Minhaj Ahmed                 |
-| Date             | 2026-08-06                   |
-| Platform         | VMware Workstation Pro       |
-| Virtual Machine  | PGDB01                       |
-| Operating System | Ubuntu Server 26.04 LTS      |
-| Database         | PostgreSQL 18                |
-| Status           | ✅ Completed                  |
+| Item | Value |
+|------|-------|
+| Lab Number | 001 |
+| Lab Name | PostgreSQL Environment Setup |
+| Author | Minhaj Ahmed |
+| Date | 2026-08-06 |
+| Platform | VMware Workstation Pro |
+| Virtual Machine | PGDB01 |
+| Operating System | Ubuntu Server 26.04 LTS |
+| Database | PostgreSQL 18 |
+| Status | ✅ Completed |
 
 ---
 
@@ -25,16 +24,16 @@ Build the first PostgreSQL virtual machine for the Enterprise DBA Lab and verify
 
 # Environment
 
-| Component        | Details                 |
-| ---------------- | ----------------------- |
-| Hypervisor       | VMware Workstation Pro  |
-| Virtual Machine  | PGDB01                  |
+| Component | Details |
+|-----------|---------|
+| Hypervisor | VMware Workstation Pro |
+| Virtual Machine | PGDB01 |
 | Operating System | Ubuntu Server 26.04 LTS |
-| Memory           | 4 GB                    |
-| CPU              | 2 vCPU                  |
-| Disk             | 40 GB                   |
-| Network          | NAT                     |
-| Database         | PostgreSQL 18           |
+| Memory | 4 GB |
+| CPU | 2 vCPU |
+| Disk | 40 GB |
+| Network | NAT |
+| Database | PostgreSQL 18 |
 
 ---
 
@@ -71,7 +70,7 @@ The lab is considered successful when:
 ```bash
 sudo apt update
 sudo apt upgrade -y
-````
+```
 
 ## Install PostgreSQL
 
@@ -107,24 +106,24 @@ CREATE DATABASE dbalab;
 
 # Skills Practiced
 
-* VMware virtual machine provisioning
-* Ubuntu Server installation
-* Linux package management (APT)
-* PostgreSQL installation
-* PostgreSQL cluster verification
-* PostgreSQL command-line administration using `psql`
-* Database creation
-* Technical documentation
+- VMware virtual machine provisioning
+- Ubuntu Server installation
+- Linux package management (APT)
+- PostgreSQL installation
+- PostgreSQL cluster verification
+- PostgreSQL administration using `psql`
+- Database creation
+- Technical documentation
 
 ---
 
 # Lessons Learned
 
-* PostgreSQL on Ubuntu is installed using the APT package manager.
-* The PostgreSQL cluster can be verified using the `pg_lsclusters` command.
-* The `psql` command-line interface is the primary tool for PostgreSQL administration.
-* PostgreSQL uses port **5432** by default.
-* Proper documentation is an essential part of database administration and helps improve repeatability and troubleshooting.
+- PostgreSQL on Ubuntu is installed using the APT package manager.
+- The PostgreSQL cluster can be verified using the `pg_lsclusters` command.
+- The `psql` command-line interface is the primary tool for PostgreSQL administration.
+- PostgreSQL uses port **5432** by default.
+- Proper documentation improves troubleshooting and repeatability.
 
 ---
 
@@ -132,27 +131,37 @@ CREATE DATABASE dbalab;
 
 ## Figure 1 – VMware Virtual Machine Configuration
 
+![VMware Settings](../Images/01-vm-settings.png)
+
 ---
 
 ## Figure 2 – Ubuntu Server Login
+
+![Ubuntu Login](../Images/02-ubuntu-login.png)
 
 ---
 
 ## Figure 3 – PostgreSQL Version Verification
 
+![PostgreSQL Version](../Images/03-postgresql-version.png)
+
 ---
 
 ## Figure 4 – PostgreSQL Cluster Status
+
+![Cluster Status](../Images/04-pg-lsclusters.png)
 
 ---
 
 ## Figure 5 – Database Creation
 
+![Create Database](../Images/05-create-database.png)
+
 ---
 
 # Reflection
 
-This lab established the foundation of my PostgreSQL learning environment. Beyond installing PostgreSQL, I gained hands-on experience with Ubuntu Server, Linux command-line administration, package management using APT, and PostgreSQL verification. This environment will be used in future labs covering security, backup and recovery, performance tuning, replication, monitoring, automation, and cloud database technologies.
+This lab established the foundation of my PostgreSQL learning environment. Beyond installing PostgreSQL, I gained hands-on experience with Ubuntu Server, Linux command-line administration, package management using APT, and PostgreSQL verification. This environment will be be used for future labs covering security, backup and recovery, performance tuning, replication, monitoring, automation, and cloud database technologies.
 
 ---
 
@@ -167,6 +176,3 @@ This lab established the foundation of my PostgreSQL learning environment. Beyon
 **Repository:** Enterprise DBA Lab
 
 **Author:** Minhaj Ahmed
-
-```
-```
