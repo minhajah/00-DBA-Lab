@@ -53,3 +53,33 @@ CREATE DATABASE dbalab;
 * Explore databases and schemas.
 * Understand PostgreSQL configuration files.
 * Begin backup and recovery exercises.
+
+## Screenshots
+
+### Figure 1 - VMware Virtual Machine Settings
+
+![VMware Settings](../Images/01-vm-settings.png)
+
+---
+
+### Figure 2 - Ubuntu Server Login
+
+![Ubuntu Login](../Images/02-ubuntu-login.png)
+
+---
+
+### Figure 3 - PostgreSQL Version
+
+![PostgreSQL Version](../Images/03-postgresql-version.png)
+
+---
+
+### Figure 4 - PostgreSQL Cluster Status
+
+![Cluster Status](../Images/04-pg-lsclusters.png)
+
+---
+
+### Figure 5 - First Database Created
+
+![Create Database](../Images/05-create-database.png)
