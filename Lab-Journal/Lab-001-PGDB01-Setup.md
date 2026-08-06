@@ -64,7 +64,7 @@ The lab is considered successful when:
 
 ---
 
-# Activities Completed
+# Procedure
 
 - Created the virtual machine **PGDB01** using VMware Workstation Pro.
 - Installed Ubuntu Server 26.04 LTS.
@@ -94,8 +94,17 @@ sudo apt install postgresql postgresql-contrib -y
 
 ## Verify PostgreSQL Cluster
 
+**Command**
+
 ```bash
 pg_lsclusters
+```
+
+**Sample Output**
+
+```text
+Ver Cluster Port Status Owner
+18  main    5432 online postgres
 ```
 
 ## Connect to PostgreSQL
@@ -179,6 +188,12 @@ This lab established the foundation of my PostgreSQL learning environment. Beyon
 
 ---
 
+# Outcome
+
+The PostgreSQL lab environment was successfully deployed and verified. The server is operational and ready for future exercises involving user management, backup and recovery, security, performance tuning, replication, and automation.
+
+---
+
 # Next Lab
 
 **Lab 002 – PostgreSQL Roles, Users, Databases, and Schemas**
@@ -188,5 +203,11 @@ This lab established the foundation of my PostgreSQL learning environment. Beyon
 **Lab Status:** ✅ Completed
 
 **Repository:** Enterprise DBA Lab
+
+# References
+
+- PostgreSQL Documentation
+- Ubuntu Server Documentation
+- VMware Workstation Pro Documentation
 
 **Author:** Minhaj Ahmed
