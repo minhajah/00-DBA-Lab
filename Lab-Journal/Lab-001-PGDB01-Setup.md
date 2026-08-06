@@ -2,23 +2,33 @@
 
 ## Table of Contents
 
-- Lab Information
-- Objective
-- Environment
-- Success Criteria
-- Activities Completed
-- Commands Practiced
-- Skills Practiced
-- Lessons Learned
-- Screenshots
-- Reflection
-- Next Lab
+- [Prerequisites](#prerequisites)
+- [Lab Information](#lab-information)
+- [Objective](#objective)
+- [Environment](#environment)
+- [Success Criteria](#success-criteria)
+- [Procedure](#procedure)
+- [Commands Practiced](#commands-practiced)
+- [Troubleshooting](#troubleshooting)
+- [Skills Practiced](#skills-practiced)
+- [Lessons Learned](#lessons-learned)
+- [Screenshots](#screenshots)
+- [Reflection](#reflection)
+- [Outcome](#outcome)
+- [Next Lab](#next-lab)
+- [Verification Checklist](#verification-checklist)
+- [References](#references)
+- [Document History](#document-history)
+
+---
 
 ## Prerequisites
 
 - VMware Workstation Pro installed
 - Ubuntu Server ISO downloaded
 - Basic Linux terminal knowledge
+
+---
 
 ## Lab Information
 
@@ -32,23 +42,19 @@
 | Virtual Machine | PGDB01 |
 | Operating System | Ubuntu Server 26.04 LTS |
 | Database | PostgreSQL 18 |
+| Estimated Duration | 45 minutes |
+| Difficulty | Beginner |
 | Status | ✅ Completed |
 
-Estimated Duration: 45 minutes
-Difficulty: Beginner
 ---
 
 ## Objective
-
-...
 
 Build the first PostgreSQL virtual machine for the Enterprise DBA Lab and verify that PostgreSQL is installed, running, and ready for administration.
 
 ---
 
 ## Environment
-
-...
 
 | Component | Details |
 |-----------|---------|
@@ -61,9 +67,9 @@ Build the first PostgreSQL virtual machine for the Enterprise DBA Lab and verify
 | Network | NAT |
 | Database | PostgreSQL 18 |
 
-# Success Criteria
+---
 
-...
+## Success Criteria
 
 The lab is considered successful when:
 
@@ -76,35 +82,35 @@ The lab is considered successful when:
 
 ---
 
-# Procedure
+## Procedure
 
-- Created the virtual machine **PGDB01** using VMware Workstation Pro.
-- Installed Ubuntu Server 26.04 LTS.
-- Updated Ubuntu packages using APT.
-- Installed PostgreSQL 18 and PostgreSQL Contrib packages.
-- Verified the PostgreSQL cluster status.
-- Connected to PostgreSQL using the `psql` command-line interface.
-- Verified the PostgreSQL version.
-- Created the first PostgreSQL database named **dbalab**.
+1. Created the virtual machine **PGDB01** using VMware Workstation Pro.
+2. Installed Ubuntu Server 26.04 LTS.
+3. Updated Ubuntu packages using APT.
+4. Installed PostgreSQL 18 and PostgreSQL Contrib packages.
+5. Verified the PostgreSQL cluster status.
+6. Connected to PostgreSQL using the `psql` command-line interface.
+7. Verified the PostgreSQL version.
+8. Created the first PostgreSQL database named **dbalab**.
 
 ---
 
-# Commands Practiced
+## Commands Practiced
 
-## Update Ubuntu
+### Update Ubuntu
 
 ```bash
 sudo apt update
 sudo apt upgrade -y
 ```
 
-## Install PostgreSQL
+### Install PostgreSQL
 
 ```bash
 sudo apt install postgresql postgresql-contrib -y
 ```
 
-## Verify PostgreSQL Cluster
+### Verify PostgreSQL Cluster
 
 **Command**
 
@@ -119,19 +125,19 @@ Ver Cluster Port Status Owner
 18  main    5432 online postgres
 ```
 
-## Connect to PostgreSQL
+### Connect to PostgreSQL
 
 ```bash
 sudo -u postgres psql
 ```
 
-## Verify PostgreSQL Version
+### Verify PostgreSQL Version
 
 ```sql
 SELECT version();
 ```
 
-## Create Database
+### Create Database
 
 ```sql
 CREATE DATABASE dbalab;
@@ -139,7 +145,20 @@ CREATE DATABASE dbalab;
 
 ---
 
-# Skills Practiced
+## Troubleshooting
+
+> Add any real issue you hit during this lab — even small ones. This is often the most valuable section for readers, because it proves hands-on experience rather than just following steps that worked on the first try.
+
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| *[e.g. "psql: connection refused"]* | *[e.g. PostgreSQL not listening on expected interface]* | *[e.g. edited `postgresql.conf` / `pg_hba.conf` and restarted service]* |
+| *[Add another if applicable]* | | |
+
+If nothing went wrong in this particular lab, it's fine to state that directly — e.g. "No issues encountered; installation completed cleanly on first attempt." That's still a more credible statement than omitting the section.
+
+---
+
+## Skills Practiced
 
 - VMware virtual machine provisioning
 - Ubuntu Server installation
@@ -152,17 +171,21 @@ CREATE DATABASE dbalab;
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
-- PostgreSQL on Ubuntu is installed using the APT package manager.
-- The PostgreSQL cluster can be verified using the `pg_lsclusters` command.
-- The `psql` command-line interface is the primary tool for PostgreSQL administration.
+> Keep the two general facts if you like, but try to replace the rest with things you personally discovered or had to double-check — not restatements of documentation. A few prompts to help pull those out:
+> - Did any command behave differently than you expected?
+> - Was there a setting whose purpose only became clear after you used it?
+> - What would you do faster/differently on the next VM you build?
+
 - PostgreSQL uses port **5432** by default.
 - Proper documentation improves troubleshooting and repeatability.
+- *[Replace with a specific, personal takeaway from this lab]*
+- *[Replace with a specific, personal takeaway from this lab]*
 
 ---
 
-# Screenshots
+## Screenshots
 
 **Figure 1. VMware Workstation Pro virtual machine configuration for PGDB01.**
 
@@ -194,26 +217,25 @@ CREATE DATABASE dbalab;
 
 ---
 
-# Reflection
+## Reflection
 
-This lab established the foundation of my PostgreSQL learning environment. Beyond installing PostgreSQL, I gained hands-on experience with Ubuntu Server, Linux command-line administration, package management using APT, and PostgreSQL verification. This environment will be be used for future labs covering security, backup and recovery, performance tuning, replication, monitoring, automation, and cloud database technologies.
+This lab established the foundation of my PostgreSQL learning environment. Beyond installing PostgreSQL, I gained hands-on experience with Ubuntu Server, Linux command-line administration, package management using APT, and PostgreSQL verification. This environment will be used for future labs covering security, backup and recovery, performance tuning, replication, monitoring, automation, and cloud database technologies.
 
 ---
 
-# Outcome
+## Outcome
 
 The PostgreSQL lab environment was successfully deployed and verified. The server is operational and ready for future exercises involving user management, backup and recovery, security, performance tuning, replication, and automation.
 
 ---
 
-# Next Lab
+## Next Lab
 
 **Lab 002 – PostgreSQL Roles, Users, Databases, and Schemas**
 
 ---
 
 **Lab Status:** ✅ Completed
-
 **Repository:** Enterprise DBA Lab
 
 ## Verification Checklist
@@ -225,15 +247,21 @@ The PostgreSQL lab environment was successfully deployed and verified. The serve
 - [x] PostgreSQL version verified
 - [x] Database created successfully
 
+---
+
 ## References
 
-- PostgreSQL Documentation: https://www.postgresql.org/docs/
-- Ubuntu Server Documentation: https://documentation.ubuntu.com/server/
-- VMware Workstation Pro Documentation: https://techdocs.broadcom.com/
+- PostgreSQL Documentation: <https://www.postgresql.org/docs/>
+- Ubuntu Server Documentation: <https://documentation.ubuntu.com/server/>
+- VMware Workstation Pro Documentation: <https://techdocs.broadcom.com/>
+
+---
 
 ## Document History
 
 | Version | Date | Author | Description |
-|----------|------|--------|-------------|
+|---------|------|--------|-------------|
 | 1.0 | 2026-08-06 | Minhaj Ahmed | Initial release |
+| 1.1 | *[update date]* | Minhaj Ahmed | Added troubleshooting section, fixed ToC links and heading structure |
+
 **Author:** Minhaj Ahmed
