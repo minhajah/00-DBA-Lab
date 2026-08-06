@@ -8,58 +8,72 @@ The lab is built using VMware Workstation Pro and is designed to simulate a real
 
 This repository serves as the foundation for all other database projects in my GitHub portfolio.
 
+<!--
+Add a screenshot or diagram here, e.g. your network topology or VM inventory.
+![Lab Network Overview](Images/network-overview.png)
+-->
+
 ---
 
 ## Objectives
 
-* Build a professional database administration lab from scratch.
-* Learn PostgreSQL administration on Linux.
-* Strengthen SQL Server administration skills.
-* Practice infrastructure documentation.
-* Create reusable deployment and troubleshooting guides.
-* Build a portfolio demonstrating hands-on DBA experience.
+- Build a professional database administration lab from scratch.
+- Learn PostgreSQL administration on Linux.
+- Strengthen SQL Server administration skills.
+- Practice infrastructure documentation.
+- Create reusable deployment and troubleshooting guides.
+- Build a portfolio demonstrating hands-on DBA experience.
 
 ---
 
 ## Current Environment
 
-| Component        | Details                 |
-| ---------------- | ----------------------- |
-| Hypervisor       | VMware Workstation Pro  |
-| Host RAM         | 20 GB                   |
-| Host Storage     | 750 GB SSD              |
-| Primary Linux VM | PGDB01                  |
+| Component | Details |
+|-----------|---------|
+| Hypervisor | VMware Workstation Pro |
+| Host RAM | 20 GB |
+| Host Storage | 750 GB SSD |
+| Primary Linux VM | PGDB01 |
 | Operating System | Ubuntu Server 26.04 LTS |
-| Database         | PostgreSQL 18           |
+| Database | PostgreSQL 18 |
+
+---
+
+## Lab Progress
+
+| Lab | Topic | Status |
+|-----|-------|--------|
+| [Lab 001](Lab-Journal/Lab-001-PGDB01-Setup.md) | PostgreSQL Environment Setup | ✅ Completed |
+| Lab 002 | PostgreSQL Roles, Users, Databases, and Schemas | 🚧 Planned |
 
 ---
 
 ## Repository Structure
 
-* Documentation – Architecture and technical documentation
-* VM-Inventory – Details of all virtual machines
-* Network – Network configuration and topology
-* Lab-Journal – Daily lab activities and progress
-* Images – Screenshots and diagrams
-* Templates – Reusable documentation templates
+- [Documentation](Documentation/) – Architecture and technical documentation
+- [VM-Inventory](VM-Inventory/) – Details of all virtual machines
+- [Network](Network/) – Network configuration and topology
+- [Lab-Journal](Lab-Journal/) – Daily lab activities and progress
+- [Images](Images/) – Screenshots and diagrams
 
 ---
 
 ## Learning Goals
 
-* PostgreSQL Administration
-* SQL Server Administration
-* Linux Administration
-* Backup and Recovery
-* High Availability
-* Performance Tuning
-* Database Security
-* Database Automation
-* Cloud Databases
-* DevOps for DBAs
+- PostgreSQL Administration
+- SQL Server Administration
+- Linux Administration
+- Backup and Recovery
+- High Availability
+- Performance Tuning
+- Database Security
+- Database Automation
+- Cloud Databases
+- DevOps for DBAs
 
 ---
 
 ## Status
 
 🚧 Active Project – Continuously Updated
+**Last Updated:** 2026-08-06
