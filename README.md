@@ -1,3 +1,3 @@
 # 00-DBA-Lab
 
-this is where we will update about lab
+Enterprise Database Lab built using VMware Workstation Pro for SQL Server, PostgreSQL, Linux, and Cloud database administration.
