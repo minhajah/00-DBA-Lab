@@ -176,7 +176,7 @@ No issues were encountered during this lab. Ubuntu Server and PostgreSQL install
 
 **Figure 1. VMware Workstation Pro virtual machine configuration for PGDB01.**
 
-![VMware Settings](../Images/01-vm-settings.png)
+![VMware Settings](../Images/lab-001/01-vm-settings.png)
 
 ---
 
