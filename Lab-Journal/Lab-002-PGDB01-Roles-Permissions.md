@@ -31,7 +31,7 @@
 | Lab Number | 002 |
 | Lab Name | PostgreSQL Roles, Database Ownership and Permissions |
 | Author | Minhaj Ahmed |
-| Date | 2026-08-07 |
+| Date | 2026-08-09 |
 | Platform | VMware Workstation Pro |
 | Virtual Machine | PGDB01 |
 | Operating System | Ubuntu Server 26.04 LTS |
