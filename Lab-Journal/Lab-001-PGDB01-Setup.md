@@ -182,25 +182,25 @@ No issues were encountered during this lab. Ubuntu Server and PostgreSQL install
 
 **Figure 2. Ubuntu Server Login**
 
-![Ubuntu Login](../Images/02-ubuntu-login.png)
+![Ubuntu Login](../Images/lab-001/02-ubuntu-login.png)
 
 ---
 
 **Figure 3. PostgreSQL Version Verification**
 
-![PostgreSQL Version](../Images/03-postgresql-version.png)
+![PostgreSQL Version](../Images/lab-001/03-postgresql-version.png)
 
 ---
 
 **Figure 4. PostgreSQL Cluster Status**
 
-![Cluster Status](../Images/04-pg-lsclusters.png)
+![Cluster Status](../Images/lab-001/04-pg-lsclusters.png)
 
 ---
 
 **Figure 5. Database Creation**
 
-![Create Database](../Images/05-create-database.png)
+![Create Database](../Images/lab-001/05-create-database.png)
 
 ---
 
