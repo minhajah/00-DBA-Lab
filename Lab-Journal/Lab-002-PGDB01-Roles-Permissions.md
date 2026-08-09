@@ -503,6 +503,6 @@ A lab database and schema were successfully created and owned by a dedicated non
 
 | Version | Date | Author | Description |
 |---------|------|--------|-------------|
-| 1.0 | 2026-08-07 | Minhaj Ahmed | Initial release |
+| 1.0 | 2026-08-09 | Minhaj Ahmed | Initial release |
 
 **Author:** Minhaj Ahmed
