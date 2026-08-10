@@ -42,9 +42,10 @@ Add a screenshot or diagram here, e.g. your network topology or VM inventory.
 ## Lab Progress
 
 | Lab | Topic | Status |
-|-----|-------|--------|
+| --- | --- | --- |
 | [Lab 001](Lab-Journal/Lab-001-PGDB01-Setup.md) | PostgreSQL Environment Setup | ✅ Completed |
 | [Lab 002](Lab-Journal/Lab-002-PGDB01-Roles-Permissions.md) | PostgreSQL Roles, Users, Databases, and Schemas | ✅ Completed |
+| [Lab 003](Lab-Journal/Lab-003-PGDB01-Configuration-Authentication.md) | PostgreSQL Configuration & Authentication | ✅ Completed |
 
 ---
 
